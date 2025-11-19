@@ -8,7 +8,7 @@ import sedan2 from "./assets/sedan2.jpg";
 import blackmini from "./assets/blackmini.jpg";
 import { useEffect } from "react";
 import AOS from "aos";
-// import "aos/dist/aos.css";
+import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
@@ -61,11 +61,11 @@ function App() {
               profesional dan ramah, kami berkomitmen menghadirkan pengalaman
               pembelian mobil yang lebih mudah dan menyenangkan.
             </p>
-            <div className="mt-4">
+            {/* <div className="mt-4">
               <button className="bg-white px-7 py-2 text-xl text-black rounded-3xl font-medium">
                 Lihat
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* IMAGE */}
